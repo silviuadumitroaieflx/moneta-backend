@@ -12,7 +12,7 @@ let users = require('./users.json');
 
 // Ruta pentru pagina principală
 app.get("/", (req, res) => {
-  res.send("Moneta API rulează pe http://localhost:3000");
+  res.send("✅ Moneta API e live!");
 });
 
 // Endpoint de înregistrare
